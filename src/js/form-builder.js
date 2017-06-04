@@ -245,9 +245,9 @@ const FormBuilder = function(opts, element) {
 
   let saveAndUpdate = utils.debounce(evt => {
     if (evt) {
-      if (evt.type === 'keyup' && evt.target.name === 'className') {
-        return false;
-      }
+//       if (evt.type === 'keyup' && evt.target.name === 'className') {
+//         return false;
+//       }
 
       let $field = $(evt.target).closest('.form-field');
       h.updatePreview($field);
