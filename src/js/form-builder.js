@@ -244,7 +244,7 @@ const FormBuilder = function(opts, element) {
   }
 
   let saveAndUpdate = utils.debounce(evt => {
-    if (evt) {
+//     if (evt) {
 //       if (evt.type === 'keyup' && evt.target.name === 'className') {
 //         return false;
 //       }
@@ -252,7 +252,7 @@ const FormBuilder = function(opts, element) {
       let $field = $(evt.target).closest('.form-field');
       h.updatePreview($field);
       h.save.call(h);
-    }
+//     }
   });
 
   let previewSelectors = [
