@@ -21,7 +21,7 @@ body > div {}
 
 .content {
   margin: auto;
-  width: 50px;
+  width: 50%;
   max-width: 120px;
   padding-top: 5em;
 }
