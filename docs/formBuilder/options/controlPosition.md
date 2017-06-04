@@ -4,7 +4,7 @@
 ## Usage
 ```javascript
 var options = {
-      controlPosition: 'left'
+      controlPosition: 'right'
     };
 $(container).formBuilder(options);
 ```
